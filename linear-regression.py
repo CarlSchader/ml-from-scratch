@@ -9,3 +9,4 @@ def loss(y, yh):
         sum += (yh[i] - y)*(yh[i] - y)
     return sum / len(y)
 
+# def grad_descent(w, b, ):
